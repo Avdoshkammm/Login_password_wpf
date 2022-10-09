@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DocumentFormat.OpenXml.Bibliography;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,21 @@ namespace night_wpf
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ButtonEnter_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonGuest_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Hyperlink_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
